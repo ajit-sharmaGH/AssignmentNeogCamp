@@ -40,6 +40,7 @@ body {
 
 .naming-one {
     color: rgb(77, 74, 74);
+    font-weight: bold;
 }
 
 .para-one {
@@ -139,4 +140,131 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
+}
+
+.card-container-three {
+    /* display:flex;*/
+    /* flex-grow:2;  */
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.img-cover-three {
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    background-image: url("https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg");
+    /* border-radius: 1px; */
+    /* border: 10px solid white; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-box-three {
+    margin: 15px 0px 7px 10px;
+    color: chocolate;
+    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.naming-three {
+    font-weight: bold;
+    margin: 10px;
+    color: rgb(77, 74, 74);
+}
+
+.para-three {
+    color: rgb(77, 74, 74);
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.card-container-four {
+    /* display:flex;*/
+    /* flex-grow:2;  */
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.img-cover-four {
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    background-image: url("https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg");
+    border-radius: 1px;
+    border: 10px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-box-four {
+    margin: 15px 0px 7px 10px;
+    color: chocolate;
+    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.naming-four {
+    font-weight: bold;
+    margin: 10px;
+    color: rgb(77, 74, 74);
+}
+
+.para-four {
+    color: rgb(77, 74, 74);
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.card-container-five {
+    /* display:flex;*/
+    /* flex-grow:1;  */
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+
+/* .img-cover-five {
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    background-image: url("https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg");
+    border-radius: 1px;
+    border: 10px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.text-box-five {
+    margin: 15px 0px 7px 10px;
+    color: chocolate;
+    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.naming-five {
+    font-weight: bold;
+    margin: 10px;
+    color: rgb(77, 74, 74);
+}
+
+.para-five {
+    color: rgb(77, 74, 74);
+    font-size: 16px;
+    margin-left: 10px;
 }
