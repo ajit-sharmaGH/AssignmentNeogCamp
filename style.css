@@ -1,0 +1,142 @@
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container-one {
+    /* display:flex;*/
+    /* flex-grow:2;  */
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.img-cover-one {
+    /* flex-grow: 1; */
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    background-image: url("https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg");
+    border-radius: 1px;
+    border: 10px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-box-one {
+    margin-left: 10px;
+}
+
+.h4One {
+    font-size: 1.2rem;
+    margin: 5px auto;
+    color: chocolate;
+}
+
+.naming-one {
+    color: rgb(77, 74, 74);
+}
+
+.para-one {
+    color: rgb(99, 90, 90);
+}
+
+.card-container-two {
+    width: 490px;
+    height: 210px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.img-cover-two {
+    box-sizing: border-box;
+    width: 200px;
+    height: 130px;
+    background-image: url("https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg");
+    /* border-radius: 1px; */
+    /* border: 10px solid white; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-box-two {
+    margin: 30px auto;
+    color: chocolate;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.naming-two {
+    color: rgb(77, 74, 74);
+    font-size: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem auto;
+}
+
+.btn1,
+.btn2 {
+    border: none;
+    color: blueviolet;
+    background-color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background-color: rgb(201, 167, 207);
+}
+
+.btn2:hover {
+    background-color: rgb(201, 167, 207);
+}
+
+.btn-like {
+    border: none;
+    background-image: url("images/like.png");
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.btn-share {
+    border: none;
+    background-image: url("images/share.png");
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.btn-more {
+    border: none;
+    background-image: url("images/more.png");
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
