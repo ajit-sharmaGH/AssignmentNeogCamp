@@ -1,0 +1,115 @@
+.badge-container {
+    border-radius: 2rem;
+}
+
+.badge-container-text {
+    margin: 7%;
+}
+
+.badge-container-type-one {
+    border-radius: 50%;
+    padding: 6px;
+    background-color: rgb(223, 101, 53);
+    color: white;
+    position: relative;
+    top: -10px;
+    left: -3px;
+    font-weight: bold;
+}
+
+.badge-container-type-two {
+    border-radius: 50%;
+    padding: 20px;
+    background-color: rgb(223, 101, 53);
+    color: white;
+    position: relative;
+    top: -25px;
+    left: -19px;
+    font-weight: bold;
+}
+
+.action-button {
+    position: relative;
+    background-color: rgb(41, 41, 199);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    /* left: -20px; */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.badge-container-type-three {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(223, 101, 53);
+    color: white;
+    position: relative;
+    top: -20px;
+    font-weight: bold;
+    left: -90px;
+    z-index: 1;
+}
+
+.button-hide {
+    position: relative;
+    background-color: rgb(172, 172, 223);
+    color: rgba(17, 1, 1, 0.836);
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.button-hide:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.badge-container-type-four {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(223, 101, 53);
+    color: white;
+    position: relative;
+    top: -25px;
+    left: -20px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.home-icon {
+    border: none;
+    background-image: url("images/home.png");
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    left: -30px;
+    position: relative;
+    z-index: -1;
+}
+
+.badge-container-type-five {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(223, 101, 53);
+    color: white;
+    position: relative;
+    top: -25px;
+    right: -20px;
+    font-weight: bold;
+}
+
+.link-menu {
+    margin-left: 50px;
+    background-color: rgb(215, 243, 93);
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 4px;
+}
