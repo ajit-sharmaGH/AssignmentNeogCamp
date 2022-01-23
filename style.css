@@ -1,8 +1,11 @@
 body {
+    box-sizing: border-box;
     font-family: sans-serif;
     background-color: lightgray;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-container-one {
@@ -46,7 +49,7 @@ body {
 }
 
 .card-container-two {
-    width: 490px;
+    width: 300px;
     height: 210px;
     margin: 10px;
     background-color: white;
@@ -56,8 +59,8 @@ body {
 
 .img-cover-two {
     box-sizing: border-box;
-    width: 200px;
-    height: 130px;
+    width: 100px;
+    height: 98px;
     background-image: url("https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg");
     /* border-radius: 1px; */
     /* border: 10px solid white; */
@@ -71,9 +74,9 @@ body {
 }
 
 .text-box-two {
-    margin: 30px auto;
+    margin: auto;
     color: chocolate;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -270,12 +273,13 @@ body {
 }
 
 .link-menu {
+    padding: 5px;
     width: 300px;
-    /* height: 200px; */
     background-color: rgb(215, 243, 93);
     box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
+    /* height: 50px; */
 }
