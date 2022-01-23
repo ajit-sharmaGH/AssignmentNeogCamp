@@ -6,8 +6,6 @@ body {
 }
 
 .card-container-one {
-    /* display:flex;*/
-    /* flex-grow: 2; */
     width: 300px;
     height: 350px;
     margin: 10px;
@@ -88,7 +86,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 2rem auto;
+    margin: 1rem auto;
 }
 
 .btn1,
@@ -102,11 +100,13 @@ body {
 }
 
 .btn1:hover {
-    background-color: rgb(201, 167, 207);
+    background-color: blueviolet;
+    color: white;
 }
 
 .btn2:hover {
-    background-color: rgb(201, 167, 207);
+    background-color: blueviolet;
+    color: white;
 }
 
 .btn-like {
