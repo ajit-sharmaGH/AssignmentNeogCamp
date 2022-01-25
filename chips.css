@@ -30,7 +30,7 @@ ul li i {
     color: black;
     cursor: pointer;
     font-size: 0.7rem;
-    margin-left: 0.5rem;
+    margin-left: 0.8rem;
     border-radius: 50%;
     background-color: #dfdfdf;
 }
@@ -47,6 +47,10 @@ ul li i {
     background-color: yellow;
 }
 
+.mast-chips {
+    background-color: #f44336;
+}
+
 input {
     margin: 0.3rem 0 0 0.3rem;
     border: 1px solid pink;
@@ -54,6 +58,17 @@ input {
     padding: 10px 20px 10px 20px;
     border-radius: 1rem;
     outline: none;
+}
+
+.chips-container-stacked {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 9.8rem;
+}
+
+ul li i {
+    margin-left: auto 1rem;
 }
 
 .link-menu {
@@ -65,4 +80,8 @@ input {
     margin: 2rem auto;
     padding: 0.3rem;
     border-radius: 0.5rem;
+}
+
+a:hover {
+    color: rgb(180, 111, 212);
 }

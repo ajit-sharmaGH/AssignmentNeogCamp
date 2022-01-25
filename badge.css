@@ -1,105 +1,109 @@
-    body {
-        box-sizing: border-box;
-        background-color: antiquewhite;
-    }
-    
-    .badge-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .text {
-        margin: 1.5rem auto;
-    }
-    
-    .badge-type-five,
-    .badge-type-four,
-    .badge-type-three,
-    .badge-type-two,
-    .badge-type-one {
-        border-radius: 50%;
-        padding: 8px;
-        background-color: rgb(223, 101, 53);
-        color: white;
-        position: relative;
-        top: -13px;
-        left: -10px;
-        font-weight: bold;
-    }
-    
-    .badge-type-two {
-        padding: 20px;
-        top: -25px;
-        left: -19px;
-    }
-    
-    .badge-type-three {
-        padding: 10px;
-        top: -25px;
-        left: -90px;
-        /* z-index: 1; */
-    }
-    
-    .button-hide,
-    .action-button {
-        position: relative;
-        background-color: rgb(41, 41, 199);
-        color: white;
-        padding: 0.6rem 1.3rem 0.6rem 1rem;
-        border: none;
-        border-radius: 5px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-    
-    .button-hide {
-        background-color: rgb(172, 172, 223);
-        color: rgba(17, 1, 1, 0.836);
-        border: 1px solid black;
-    }
-    
-    .button-hide:hover {
-        cursor: pointer;
-        background-color: white;
-    }
-    
-    .badge-type-four {
-        left: auto;
-        top: -20px;
-        left: -20px;
-        z-index: 1;
-    }
-    
-    .home-icon {
-        border: none;
-        background-image: url("images/home.png");
-        width: 30px;
-        height: 30px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        cursor: pointer;
-        left: -30px;
-        position: relative;
-        z-index: -1;
-    }
-    
-    .badge-type-five {
-        position: relative;
-        top: -25px;
-        left: auto;
-        right: -20px;
-    }
-    
-    .link-menu {
-        background-color: rgb(215, 243, 93);
-        width: 300px;
-        padding: 20px;
-        border-radius: 4px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
+body {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+.badge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    margin: 1.5rem auto;
+}
+
+.badge-type-five,
+.badge-type-four,
+.badge-type-three,
+.badge-type-two,
+.badge-type-one {
+    border-radius: 50%;
+    padding: 8px;
+    background-color: rgb(223, 101, 53);
+    color: white;
+    position: relative;
+    top: -13px;
+    left: -10px;
+    font-weight: bold;
+}
+
+.badge-type-two {
+    padding: 20px;
+    top: -25px;
+    left: -19px;
+}
+
+.badge-type-three {
+    padding: 10px;
+    top: -25px;
+    left: -90px;
+    /* z-index: 1; */
+}
+
+.button-hide,
+.action-button {
+    position: relative;
+    background-color: rgb(41, 41, 199);
+    color: white;
+    padding: 0.6rem 1.3rem 0.6rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-hide {
+    background-color: rgb(172, 172, 223);
+    color: rgba(17, 1, 1, 0.836);
+    border: 1px solid black;
+}
+
+.button-hide:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.badge-type-four {
+    left: auto;
+    top: -20px;
+    left: -20px;
+    z-index: 1;
+}
+
+.home-icon {
+    border: none;
+    background-image: url("images/home.png");
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    left: -30px;
+    position: relative;
+    z-index: -1;
+}
+
+.badge-type-five {
+    position: relative;
+    top: -25px;
+    left: auto;
+    right: -20px;
+}
+
+.link-menu {
+    background-color: rgb(215, 243, 93);
+    width: 300px;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+a:hover {
+    color: rgb(180, 111, 212);
+}
