@@ -7,11 +7,14 @@ body {
     width: 250px;
     border-radius: 0.5rem;
     margin: 1rem;
+    /* height: 300px;
+    overflow: auto;
+    border: 1px solid black; */
 }
 
 .drawer-lists {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .lists {
@@ -27,14 +30,15 @@ body {
     color: rgb(81, 81, 133);
 }
 
-i {
+.fa {
     margin-right: 3rem;
     color: rgb(107, 82, 82);
+    /* background-color: white; */
 }
 
 span,
 header {
-    margin: 1rem 0 0rem 1rem;
+    margin-left: 1rem;
     font-size: 2rem;
 }
 
@@ -43,13 +47,56 @@ span {
     color: rgb(121, 111, 111);
 }
 
+.permanent-container {
+    width: 90%;
+    background-color: white;
+    border: 1px solid black;
+    /* border-radius: 0.4rem; */
+    display: flex;
+    /* flex-direction: row; */
+    margin-left: 1rem;
+    border-radius: 0.2rem;
+}
+
+.aside-container {
+    background-color: white;
+    width: 230px;
+    /* border-radius: 0.5rem; */
+    /* margin: 1rem; */
+    height: 300px;
+    overflow: auto;
+}
+
+.aside-nav {
+    /* margin-top: 0px; */
+    width: 250px;
+    border-right: 1px solid black;
+}
+
+.fixed-container {
+    width: 100%;
+    height: 356px;
+    overflow: auto;
+}
+
+.paragraph {
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.drawer-title {
+    background-color: rgb(58, 99, 212);
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 1rem;
+}
+
 .link-menu {
     display: flex;
     flex-direction: column;
     margin: 1rem;
     background-color: rgb(215, 243, 93);
     width: 300px;
-    /* margin: 2rem auto; */
     padding: 0.3rem;
     border-radius: 0.5rem;
 }
