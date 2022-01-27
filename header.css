@@ -1,0 +1,79 @@
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+    }
+    
+    .short-header {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        max-width: 60%;
+        background-color: blueviolet;
+        border-radius: 1rem;
+        justify-content: space-between;
+    }
+    
+    .left-objects {
+        display: flex;
+        margin-top: 0.9rem;
+        color: white;
+        font-size: 1.4rem;
+        gap: 1rem;
+    }
+    
+    .right-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* float: right; */
+    }
+    
+    .right-icons-list {
+        display: flex;
+        margin-right: 3rem;
+        /* position: fixed; */
+    }
+    
+    section {
+        margin-top: 0.8rem;
+        overflow-x: hidden;
+        margin-bottom: 1rem;
+    }
+    
+    section a i {
+        color: white;
+        padding: 6px;
+        font-size: 1.3rem;
+        border-radius: 50%;
+    }
+    
+    section a i:hover {
+        background-color: white;
+        color: blueviolet;
+    }
+    
+    .left-icon {
+        margin: auto 1rem;
+        margin-top: -0.2rem;
+    }
+    
+    .link-menu {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        background-color: rgb(215, 243, 93);
+        width: 300px;
+        padding: 0.3rem;
+        border-radius: 0.5rem;
+    }
+    
+    .link:hover {
+        color: rgb(139, 139, 218);
+    }
+    
+    link:hover {
+        color: rgb(139, 139, 218);
+    }
