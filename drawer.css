@@ -4,12 +4,12 @@ body {
 
 .drawer-container {
     background-color: white;
-    width: 250px;
+    width: 200px;
     border-radius: 0.5rem;
     margin: 1rem;
     /* height: 300px;
-    overflow: auto;
-    border: 1px solid black; */
+    overflow: auto; */
+    border: 1px solid black;
 }
 
 .drawer-lists {
@@ -56,6 +56,7 @@ span {
     /* flex-direction: row; */
     margin-left: 1rem;
     border-radius: 0.2rem;
+    margin-top: 1rem;
 }
 
 .aside-container {
@@ -89,6 +90,38 @@ span {
     width: 100%;
     margin: 0px;
     padding-bottom: 1rem;
+    color: white;
+}
+
+.drawer-title i {
+    color: white;
+    margin: 1rem 1rem 0rem 1rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding: 0.8rem;
+    border-radius: 50%;
+}
+
+.drawer-title i:hover {
+    background-color: rgba(206, 176, 236, 0.425);
+}
+
+.header {
+    margin-left: 1rem;
+    color: rgb(4, 42, 73);
+}
+
+@media screen and (max-width:992px) {
+    .drawer-container,
+    .permanent-container {
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .permanent-container {
+        width: 97%;
+    }
 }
 
 .link-menu {
@@ -102,5 +135,9 @@ span {
 }
 
 .link:hover {
+    color: rgb(139, 139, 218);
+}
+
+link:hover {
     color: rgb(139, 139, 218);
 }
