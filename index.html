@@ -125,14 +125,229 @@
 
         </div>
     </section>
-    <div class="link-menu ">
-        <a href="index.html">click here for cards component</a>
-        <a href="drawer.html">click here for drawer component</a>
-        <a href="chips.html">click here for chips component</a>
-        <a href="header.html">click here for header component</a>
-        <a href="badge.html">click here for badge component</a>
+    <!-- Here we go for the drawer component -->
+
+    <!-- Basic drawer approach  -->
+    <h2 class="header">Basic Drawer</h2>
+    <div class="drawer-container">
+
+        <header>Title</header>
+        <span>subtext </span>
+        <div class="drawer-lists">
+            <a class="lists" href="#"><i class="fa  fa-envelope-open-text"></i>Inbox</a>
+            <a class="lists" href="#"><i class="fa  fa-star"></i>Star</a>
+            <a class="lists" href="#"><i class="fa  fa-paper-plane"></i>Sent Mail</a>
+            <a class="lists" href="#"><i class="fa  fa-envelope-open"></i>Drafts</a>
+
+        </div>
     </div>
-    <script src="script.js "></script>
+    <!-- second permanent drawer approach -->
+    <h2 class="header">Permanent Drawer</h2>
+    <div class="permanent-container">
+        <div class="aside-nav">
+            <header>Mail</header>
+            <span>noreply@message.com</span>
+            <aside class="aside-container">
+
+                <div class="drawer-lists">
+                    <a class="lists" href="#"><i class="fa  fa-envelope-open-text"></i>Inbox</a>
+                    <a class="lists" href="#"><i class="fa  fa-star"></i>Star</a>
+                    <a class="lists" href="#"><i class="fa  fa-paper-plane"></i>Sent Mail</a>
+                    <hr>
+                    <span class="label">labels</span>
+                    <a class="lists" href="#"><i class="fa  fa-users"></i>Family</a>
+                    <a class="lists" href="#"><i class="fa  fa-user-friends"></i>Friends</a>
+                    <a class="lists" href="#"><i class="fa  fa-building"></i>Work</a>
+                    <hr><label class="labels"></label>
+                    <a class="lists" href="#"><i class="fa  fa-cog"></i>Setting</a>
+                    <a class="lists" href="#"><i class="fa  fa-comment-dots"></i>Help & feedback</a>
+                </div>
+            </aside>
+        </div>
+
+        <div class="fixed-container">
+
+            <header class="drawer-title">Permanent Drawer </header>
+            <p class="paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. Lorem
+                ipsum, dolor sit amet consectetur adipisicing elit. Ducimus voluptate hic, quod dolor itationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+                voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+                voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+                voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Ducimus voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Ducimus voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. ipsum, dolor sit amet consectetur adipisicing
+                elit. Ducimus voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. ipsum, dolor sit amet consectetur adipisicing
+                elit. Ducimus voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem.
+            </p>
+        </div>
+    </div>
+    <!-- this is third and dismissible drawer -->
+    <h2 class="header">Dismissible Drawer</h2>
+    <div class="permanent-container">
+        <div class="dismiss-aside-nav">
+            <header>Mail</header>
+            <span>noreply@message.com</span>
+            <aside class="aside-container">
+
+                <div class="drawer-lists">
+                    <a class="lists" href="#"><i class="fa  fa-envelope-open-text"></i>Inbox</a>
+                    <a class="lists" href="#"><i class="fa  fa-star"></i>Star</a>
+                    <a class="lists" href="#"><i class="fa  fa-paper-plane"></i>Sent Mail</a>
+                    <hr>
+                    <span class="label">labels</span>
+                    <a class="lists" href="#"><i class="fa  fa-users"></i>Family</a>
+                    <a class="lists" href="#"><i class="fa  fa-user-friends"></i>Friends</a>
+                    <a class="lists" href="#"><i class="fa  fa-building"></i>Work</a>
+                    <hr>
+                    <a class="lists" href="#"><i class="fa  fa-cog"></i>Setting</a>
+                    <a class="lists" href="#"><i class="fa  fa-comment-dots"></i>Help & feedback</a>
+                </div>
+            </aside>
+        </div>
+
+        <div class="fixed-container">
+
+            <header class="drawer-title">
+                <i id="iSkip" class="fa  fa-list">
+
+                </i> Permanent Drawer </header>
+            <p class="paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. Lorem
+                ipsum, dolor sit amet consectetur adipisicing elit. Ducimus voluptate hic, quod dolor itationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+                voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+                voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
+                voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Ducimus voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Ducimus voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. ipsum, dolor sit amet consectetur adipisicing
+                elit. Ducimus voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem. ipsum, dolor sit amet consectetur adipisicing
+                elit. Ducimus voluptate hic, quod dolor recusandae facere corporis neque eveniet earum tenetur, esse exercitationem reiciendis molestiae necessitatibus nobis, ullam dicta! Aliquam, voluptatem.
+            </p>
+        </div>
+    </div>
+
+
+
+    <!-- End of the drawer component -->
+
+    <!-- Here we go for the chips component -->
+
+
+    <div class="chips-container">
+        <h3>Input Chips</h3>
+        <ul class="chips-container-lists">
+            <li>Apple <i class="fa fa-times"></i></li>
+            <li>Strawberry<i class="fa fa-times"></i></li>
+            <li>Pineapple<i class="fa fa-times"></i></li>
+
+            <input type="text " placeholder="Enter your favorite chips..... " />
+        </ul>
+    </div>
+    <div class="chips-container">
+        <h3>Basic Chips</h3>
+        <ul class="chips-container-lists">
+            <li>Apple<i class="fa fa-times"></i></li>
+
+            <li>Pineapple<i class="fa fa-times"></i></li>
+            <li class="orange-chips">
+                Banana<i class="fa fa-times"></i>
+            </li>
+            <li class="yellow-chips">
+                Orange<i class="fa fa-times"></i>
+            </li>
+            <li class="blue-chips ">
+                Papaya<i class="fa fa-times"></i>
+            </li>
+        </ul>
+    </div>
+    <div class="chips-container">
+        <h3>Stacked Chips</h3>
+        <ul class="chips-container-stacked">
+
+
+            <li>Pomegranate<i class="fa fa-times"></i></li>
+            <li>Jackfruit<i class="fa fa-times"></i></li>
+
+            <li class="mast-chips">Pineapple<i class="uit uit-multiply"></i></li>
+            <li class="orange-chips">
+                Banana<i class="fa fa-times"></i>
+            </li>
+            <li class="yellow-chips">
+                Orange<i class="fa fa-times"></i>
+            </li>
+            <li class="blue-chips ">
+                Papaya<i class="fa fa-times"></i>
+            </li>
+        </ul>
+    </div>
+    <!-- End of the chips component -->
+
+
+    <!-- Here we go for the header component -->
+
+    <h2>Dense Header</h2>
+    <header class="short-header">
+
+        <section class="left-objects">
+            <a href="#" class="left-icon"><i class="fas  fa-list"></i> </a>
+            <strong>NeogCamp,&nbspBangalore</strong>
+        </section>
+        <section class="right-icons">
+            <a class="right-icons-list" href="#"><i class="fas  fa-download"></i> </a>
+
+            <a class="right-icons-list" href="#"><i class="fas fa-print"></i> </a>
+
+            <a class="right-icons-list" href="#"><i class="fas fa-plane-departure"></i> </a>
+
+        </section>
+
+    </header>
+    <!-- End of the header component -->
+
+    <!-- Here we go for the badge component -->
+
+    <div class="badge-container">
+        <div class="text">
+
+            Text with a badge
+            <span class="badge-type-one">4</span>
+        </div>
+        <div class="text">
+
+            Text with large badge
+            <span class="badge-type-two">2</span>
+        </div>
+        <div class="text">
+
+            Button with a badge on the left
+            <button class="action-button">Action</button>
+            <span class="badge-type-three">8</span>
+        </div>
+        <div class="text">
+            Button toggles badge visibility
+            <button class="button-hide">Hide</button>
+            <span class="badge-type-four">4</span>
+
+        </div>
+        <div class="text">
+
+            icon with a badge
+            <span class="badge-type-five">4</span>
+            <img class="home-icon" src="images/home.png">
+        </div>
+    </div>
+    <!-- End of the badge component -->
+    <div class="link-menu ">
+        <a class="link" href="index.html">click here for cards component</a>
+        <a class="link" href="drawer.html">click here for drawer component</a>
+        <a class="link" href="chips.html">click here for chips component</a>
+        <a class="link" href="header.html">click here for header component</a>
+        <a class="link" href="badge.html">click here for badge component</a>
+    </div>
+    <script src="JavaScript/script.js "></script>
+    <script src="JavaScript/drawer.js "></script>
+    <script src="JavaScript/chips.js "></script>
+    <script src="JavaScript/header.js "></script>
+    <script src="JavaScript/badge.js "></script>
 </body>
 
 </html>

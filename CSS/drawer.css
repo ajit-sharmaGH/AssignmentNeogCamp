@@ -1,3 +1,4 @@
+@import url("link.css");
 body {
     background-color: lightgrey;
 }
@@ -122,22 +123,4 @@ span {
     .permanent-container {
         width: 97%;
     }
-}
-
-.link-menu {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    background-color: rgb(215, 243, 93);
-    width: 300px;
-    padding: 0.3rem;
-    border-radius: 0.5rem;
-}
-
-.link:hover {
-    color: rgb(139, 139, 218);
-}
-
-link:hover {
-    color: rgb(139, 139, 218);
 }

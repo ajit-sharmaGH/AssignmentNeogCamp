@@ -16,17 +16,10 @@ function createChips() {
     ul.querySelectorAll("li").forEach(li => li.remove());
     // console.log(chip.slice().reverse());
     chip.slice().reverse().forEach(chips => {
-        let liChip = `<li>${chips}<i class="uit uit-multiply"></i></li>`;
+        let liChip = `<li>${chips}<i class="fa fa-times"></i></li>`;
         ul.insertAdjacentHTML("afterbegin", liChip);
     });
 }
-
-// function remove(element, chips) {
-//     let index = chip.indexOf(chips);
-//     chip = [...chip.slice(0, index), ...chip.slice(index + 1)];
-//     // element.parentElement.remove(); // removing li of removed chip
-//     console.log(element, chips);
-// }
 
 function addChips(e) {
     if (e.key == "Enter") {
@@ -36,8 +29,6 @@ function addChips(e) {
             chips.split(',').forEach(chips => { // splitting each chip from comma
                 chip.push(chips); //adding each chip inside array
                 // console.log(chip); // duplicate chips wouldn't be added into array
-
-
                 createChips();
             });
 
