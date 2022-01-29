@@ -3,6 +3,8 @@
 @import url("CSS/chips.css");
 @import url("CSS/header.css");
 @import url("CSS/badge.css");
+@import url("CSS/snackbar.css");
+@import url("CSS/dialog.css");
 body {
     box-sizing: border-box;
     font-family: sans-serif;
