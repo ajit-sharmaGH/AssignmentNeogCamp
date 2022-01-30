@@ -5,6 +5,7 @@
 @import url("CSS/badge.css");
 @import url("CSS/snackbar.css");
 @import url("CSS/dialog.css");
+@import url("CSS/tab.css");
 body {
     box-sizing: border-box;
     font-family: sans-serif;
