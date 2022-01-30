@@ -1,0 +1,40 @@
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+ ::-webkit-scrollbar {
+    display: none;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    /* margin: 0;
+    padding: 0; */
+    border-bottom: 1px solid white;
+    background-color: white;
+    width: 190px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.tab {
+    background-color: antiquewhite;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.tab.active {
+    background-color: #ccc;
+    border-bottom: 2px solid black;
+}
+
+.tab:hover {
+    background-color: #AAA;
+}

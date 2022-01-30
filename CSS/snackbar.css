@@ -1,0 +1,65 @@
+#snackbar-undo,
+#snackbar {
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    padding: 10px;
+    /* display: inline-block; */
+    border-radius: 0.3rem;
+}
+
+#snackbar-undo i,
+#snackbar i {
+    color: white;
+    font-size: 8px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0.8rem;
+    background-color: rgb(105, 94, 94);
+    padding: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#snackbar-undo {
+    margin-top: 2rem;
+    padding: 8px;
+}
+
+#snackbar-btn span,
+#snackbar-undo span {
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;
+}
+
+#snackbar-undo button {
+    border: none;
+    background-color: #80FFFF;
+    padding: 5px 10px 5px 10px;
+    border-radius: 1rem;
+    margin: 0rem 0.8rem 0rem 0.8rem;
+    cursor: pointer;
+    color: rgb(44, 39, 39);
+}
+
+#snackbar-btn {
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.89);
+    padding: 0.7rem 1.8rem 0.7rem 0.7rem;
+    border-radius: 0.3rem;
+}
+
+#snackbar-btn button {
+    font-size: 10px;
+    font-family: cursive;
+    border-radius: 0.1rem;
+    padding-right: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+
+.next-line {
+    margin-top: 1rem;
+    float: right;
+}
